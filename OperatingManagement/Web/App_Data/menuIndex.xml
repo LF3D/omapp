@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menus>
+  <menu title="用户管理">
+    <item id="1-1" title="查看用户" roles="OMUserManage.View" href="views/userandrole/users.aspx" />
+    <item id="1-2" title="查看角色" roles="OMRoleManage.View" href="views/userandrole/roles.aspx" />
+    <item id="1-3" title="查看权限" roles="OMPermissionManage.View" href="views/userandrole/permissions.aspx" />
+  </menu>
+  <menu title="计划管理">
+    <item id="2-1" title="查看试验计划" roles="OMPLAN_ExPlan.View" href="Views/PlanManage/ExperimentPlanList.aspx" />
+    <item id="2-2" title="查看试验程序" roles="OMPLAN_ExProgram.View" href="Views/PlanManage/ExperimentProgramList.aspx" />
+    <item id="2-3" title="查询计划" roles="OMPLAN_Plan.View" href="Views/PlanManage/PlanList.aspx" />
+    <item id="2-4" title="查询临时计划" roles="OMPLAN_Plan.View" href="Views/PlanManage/PlanTempList.aspx" />
+    <!--<item id="2-4" title="新建应用研究计划" roles="OMPLAN_Plan.Add" href="Views/PlanManage/YJJHEdit.aspx" />
+    <item id="2-5" title="新建信息需求计划" roles="OMPLAN_Plan.Add" href="Views/PlanManage/XXXQEdit.aspx" />
+    <item id="2-6" title="新建测控资源试验申请" roles="OMPLAN_Plan.Add" href="Views/PlanManage/DJZYSQEdit.aspx" />
+    <item id="2-7" title="新建ZC地面站工作计划" roles="OMPLAN_Plan.Add" href="Views/PlanManage/GZJHEdit.aspx" />
+    <item id="2-8" title="新建仿真推演计划" roles="OMPLAN_Plan.Add" href="Views/PlanManage/TYSJEdit.aspx" />
+    <item id="2-9" title="新建中心运行计划" roles="OMPLAN_Plan.Add" href="Views/PlanManage/ZXJHEdit.aspx" />
+    <item id="2-10" title="轨道根数管理" roles="OMPLAN_OQ.View" href="Views/PlanManage/OribitalQuantityList.aspx" />
+    <item id="2-11" title="空间机动任务" roles="OMPLAN_SpaceTask.View" href="Views/PlanManage/SpaceTaskList.aspx" />
+    <item id="2-12" title="非空间机动任务" roles="OMPLAN_NSpaceTask.View" href="Views/PlanManage/NotSpaceTaskList.aspx" />-->
+  </menu>
+  <!--<menu title="运行管理">
+    <item id="3-1" title="分系统监控" roles="Anyone" href="#" />
+    <item id="3-2" title="中心状态监控" roles="Anyone" href="#" />
+    <item id="3-3" title="卫星综合状态监控" roles="Anyone" href="#" />
+  </menu>-->
+  <!--<menu title="业务管理">
+    <item id="4-1" title="中心输出策略" roles="Anyone" href="Views/BusinessManage/CenterOutputPolicyManage.aspx" />
+    <item id="4-2" title="卫星监视数据" roles="Anyone" href="#" />
+    <item id="4-3" title="文件服务器" roles="Anyone" href="#" />
+    <item id="4-4" title="实验数据分发" roles="Anyone" href="#" />
+    <item id="4-5" title="资源调度" roles="Anyone" href="#" />
+  </menu>-->
+  <menu title="业务管理">
+    <item id="3-2" title="查看文件发送记录" roles="OMB_FSendInfo.View" href="Views/BusinessManage/GetFileSInfos.aspx" />
+    <item id="3-3" title="查看文件接收记录" roles="OMB_FRcvInfo.View" href="Views/BusinessManage/GetFileRcvInfos.aspx" />
+    <item id="3-5" title="资源信息管理" roles="Anyone" href="Views/BusinessManage/ResourceManage.aspx" />
+    <item id="3-4" title="资源状态管理" roles="Anyone" href="Views/BusinessManage/ResourceStatusManage.aspx" />
+    <!--<item id="3-1" title="中心输出策略管理" roles="ExperimentPlan.List" href="Views/BusinessManage/CenterOutputPolicyManage.aspx" />
+    <item id="3-5" title="资源调度计算" roles="Anyone" href="Views/BusinessManage/ResourceRequirementAdd.aspx" />
+    <item id="3-6" title="轨道参数转换" roles="OMB_CSZH.Caculate" href="Views/BusinessManage/GDCSZH.aspx" />
+    <item id="3-7" title="轨道差值分析" roles="OMB_CZFX.Caculate" href="Views/BusinessManage/GDCZFX.aspx" />
+    <item id="3-8" title="轨道交会预报" roles="OMB_JHYB.Caculate" href="Views/BusinessManage/GDJHYB.aspx" />
+    <item id="3-9" title="轨道交会分析" roles="OMB_JHFX.Caculate" href="Views/BusinessManage/GDJHFX.aspx" />
+    <item id="3-10" title="轨道预报" roles="OMB_GDYB.Caculate" href="Views/BusinessManage/GDYB.aspx" />  -->
+  </menu>
+</menus>

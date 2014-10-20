@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menus>
+  <menu title="个人中心">
+    <item id="1-1" title="修改信息" roles="Anyone" href="views/account/MyProfile.aspx" />
+  </menu>
+</menus>

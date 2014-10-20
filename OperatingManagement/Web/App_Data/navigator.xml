@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<navigator>
+  <items>
+    <!--<item id="index" title="首页" href="index.aspx" />-->
+    <item id="usernrole" title="用户管理" href="views/userandrole/users.aspx" />
+    <item id="planmanage" title="计划管理" href="views/PlanManage/PlanList.aspx" />
+    <item id="fileserver" title="文件服务" href="Views/BusinessManage/GetFileSInfos.aspx" />
+    <item id="ykinfoman" title="运控信息管理" href="Views/BusinessManage/SYSJFF.aspx" />
+    <item id="bizmanage" title="公共信息管理" href="Views/BusinessManage/BDManage/TaskAdd.aspx" />
+    <item id="resmanage" title="资源管理" href="Views/BusinessManage/DMZResourceMan.aspx" />
+    <item id="gdfx" title="轨道分析" href="Views/BusinessManage/GDCSZH.aspx" />
+  </items>
+</navigator>

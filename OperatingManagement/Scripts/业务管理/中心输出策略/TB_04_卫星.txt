@@ -1,0 +1,22 @@
+--本地测试需要执行此脚本，上线时甲方DB中应该存在该表及对应数据
+-- Create table
+create table TB_SATELLITE
+(
+  wxmc   VARCHAR2(50) not null,
+  wxbm   VARCHAR2(10) not null,
+  state  CHAR(1) not null,
+  mzb    NUMBER(8) not null,
+  bmfsxs NUMBER(8) not null,
+  sx     VARCHAR2(4000),
+  gn     VARCHAR2(1000)
+)
+tablespace TSHTC
+  pctfree 10
+  initrans 1
+  maxtrans 255
+  storage
+  (
+    initial 64
+    minextents 1
+    maxextents unlimited
+  );

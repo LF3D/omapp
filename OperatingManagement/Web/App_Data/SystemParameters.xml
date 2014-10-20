@@ -1,0 +1,161 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<SystemParameters>
+  <CenterOutputPolicyTaskList description="中心输出策略任务列表">
+    <item text="任务一" value="1"></item>
+    <item text="任务二" value="2"></item>
+    <item text="任务三" value="3"></item>
+  </CenterOutputPolicyTaskList>
+  <CenterOutputPolicyInfoSource description="中心输出策略信源列表">
+    <item text="信息来源一" value="A"></item>
+    <item text="信息来源二" value="B"></item>
+    <item text="信息来源三" value="C"></item>
+  </CenterOutputPolicyInfoSource>
+  <CenterOutputPolicyInfoType description="中心输出策略信息类别列表">
+    <item text="信息类别一" value="a"></item>
+    <item text="信息类别二" value="b"></item>
+    <item text="信息类别三" value="c"></item>
+  </CenterOutputPolicyInfoType>
+  <CenterOutputPolicyDdestination description="中心输出策略信宿列表">
+    <item text="信宿一" value="A1"></item>
+    <item text="信宿二" value="A2"></item>
+    <item text="信宿三" value="A3"></item>
+  </CenterOutputPolicyDdestination>
+  <ResourceType description="资源管理资源类型列表">
+    <item text="地面站资源" value="1"></item>
+    <item text="通信资源" value="2"></item>
+    <item text="中心资源" value="3"></item>
+  </ResourceType>
+  <ResourceStatus description="资源管理资源状态列表">
+    <item text="健康" value="1"></item>
+    <item text="不可用" value="2"></item>
+    <item text="占用" value="3"></item>
+    <!--<item text="删除" value="4"></item>-->
+  </ResourceStatus>
+  <GroundResourceOwner description="地面站资源管理单位列表">
+    <item text="总参" value="01"></item>
+    <item text="总装" value="02"></item>
+    <item text="遥科学站" value="03"></item>
+  </GroundResourceOwner>
+  <GroundResourceCoordinate description="地面站资源站址坐标列表">
+    <item text="地心系XYZ" value="01"></item>
+    <item text="地心系BLH" value="02"></item>
+  </GroundResourceCoordinate>
+  <GroundResourceFunctionType description="地面站资源功能类型列表">
+    <item text="遥测接收" value="YCJS"></item>
+    <item text="上行遥控" value="SXYK"></item>
+    <item text="轨道测量" value="GDCL"></item>
+    <item text="数传接收" value="SCJS"></item>
+  </GroundResourceFunctionType>
+  <GroundResourceOpticalEquipment description="地面站资源是否光学设备列表">
+    <item text="是" value="1"></item>
+    <item text="否" value="2"></item>
+  </GroundResourceOpticalEquipment>
+  <CommunicationResourceDirection description="通信资源方向列表">
+    <item text="西安卫星测控中心与运控评估中心" value="XA-YK"></item>
+    <item text="运控评估中心与数据接收站" value="YK-SSZ"></item>
+  </CommunicationResourceDirection>
+  <CenterResourceEquipmentType description="中心资源设备类型列表">
+    <item text="数据收发设备" value="SFSB"></item>
+    <item text="加解密平台" value="JJMSB"></item>
+    <item text="遥测信息处理设备" value="YCSB"></item>
+    <item text="数传信息处理设备" value="SCSB"></item>
+  </CenterResourceEquipmentType>
+  <StatusType description="状态类型列表">
+    <item text="健康状态" value="1"></item>
+    <item text="占用状态" value="2"></item>
+  </StatusType>
+  <HealthStatus description="健康状态列表">
+    <item text="正常" value="1"></item>
+    <item text="异常" value="2"></item>
+  </HealthStatus>
+  <HealthStatusFunctionType description="健康状态功能类型列表">
+    <item text="数传数据接收" value="SCJS"></item>
+    <item text="遥测数据接收" value="YCJS"></item>
+    <item text="遥控操作" value="YKCZ"></item>
+  </HealthStatusFunctionType>
+  <UseStatusUsedType description="占用状态占用类型列表">
+    <item text="任务占用" value="1"></item>
+    <item text="维护占用" value="2"></item>
+    <item text="其他占用" value="3"></item>
+  </UseStatusUsedType>
+  <UseStatusCanBeUsed description="占用状态是否可执行任务列表">
+    <item text="是" value="1"></item>
+    <item text="否" value="2"></item>
+  </UseStatusCanBeUsed>
+  <XYXSInfoType description="信源信宿信息记录类型">
+    <item text="地面站" value="0"></item>
+    <item text="中心" value="1"></item>
+    <item text="分系统" value="2"></item>
+  </XYXSInfoType>
+  <XYXSInfoOwn description="信源信宿信息地面站归属（管理单位）">
+    <item text="总参" value="01"></item>
+    <item text="总装" value="02"></item>
+    <item text="遥科学站" value="03"></item>
+  </XYXSInfoOwn>
+  <XYXSInfoStatus description="信源信宿信息记录状态">
+    <item text="正常" value="1"></item>
+    <item text="删除" value="2"></item>
+  </XYXSInfoStatus>
+  <ResourceCalculate description="资源计算相关参数">
+    <item text="RequirementFileDirectory" value="D:\files\ReqFiles\"></item>
+    <item text="ResultFileDirectory" value="D:\files\ReqResultFiles\"></item>
+    <item text="ResultFileExtension" value="xml,txt"></item>
+    <item text="ResultFileMaxSize" value="4194304"></item>
+  </ResourceCalculate>
+  <ResourceCalculateResultFileSource description="资源计算，资源计算结果来源：系统计算（1）、用户上传（2）">
+    <item text="系统计算" value="1"></item>
+    <item text="用户上传" value="2"></item>
+  </ResourceCalculateResultFileSource>
+  <ResourceCalculateResult description="资源计算，资源计算结果：计算成功（1）、计算失败（2）；">
+    <item text="计算成功" value="1"></item>
+    <item text="计算失败" value="2"></item>
+  </ResourceCalculateResult>
+  <ResourceCalculateStatus description="资源计算，状态：等待计算（1）、计算完成（2）；">
+    <item text="等待计算" value="1"></item>
+    <item text="计算完成" value="2"></item>
+  </ResourceCalculateStatus>
+  <OrbitDifferenceAnalysis description="轨道分析-差值分析相关参数">
+    <item text="XLDataFileExtension" value="dat,txt"></item>
+    <item text="XLDataFileMaxSize" value="4194304"></item>
+    <item text="DifCalTimeFileExtension" value="dat,txt"></item>
+    <item text="DifCalTimeFileMaxSize" value="4194304"></item>
+  </OrbitDifferenceAnalysis>
+  <OrbitIntersectionReport description="轨道分析-交会预报">
+    <item text="CuMainFileExtension" value="dat,txt"></item>
+    <item text="CuSubFileExtension" value="dat,txt"></item>
+    <item text="CuOptionalFileExtension" value="dat,txt"></item>
+  </OrbitIntersectionReport>
+  <ZYSXType description="资源属性类型">
+    <item text="int" value="1"></item>
+    <item text="double" value="2"></item>
+    <item text="string" value="3"></item>
+    <item text="bool" value="4"></item>
+    <item text="enum" value="5"></item>
+  </ZYSXType>
+  <SatelliteState description="卫星状态">
+    <item text="可用" value="0"></item>
+    <item text="不可用" value="1"></item>
+  </SatelliteState>  
+  <GDJSResult description="轨道计算结果参数">
+    <item text="result_path" value="D:\Files\GDFX\"></item>
+    <item text="cvt_path" value="Convert\"></item>
+    <item text="cutana_path" value="CutAna\"></item>
+    <item text="cutpre_path" value="CutPre\"></item>
+    <item text="intep_path" value="Intep\"></item>
+    <item text="obspre_path" value="ObsPre\"></item>
+    <item text="upload_path" value="Upload\"></item>
+  </GDJSResult>
+  <SatelliteShape description="卫星形状">
+    <item text="球体" value="0"></item>
+    <item text="圆柱体" value="1"></item>
+  </SatelliteShape>
+  <SatelliteFace description="卫星表面">
+    <item text="粗糙" value="0"></item>
+    <item text="光滑" value="1"></item>
+  </SatelliteFace>
+  <DMZOwner description="管理单位">
+    <item text="总参" value="1"></item>
+    <item text="总装" value="2"></item>
+    <item text="遥科学站" value="3"></item>
+  </DMZOwner>
+</SystemParameters>

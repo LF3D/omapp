@@ -1,0 +1,82 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="Web.SiteMaster" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en">
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="HeadContent" runat="server">
+    </asp:ContentPlaceHolder>
+    
+</head>
+<body>
+<%--<script language="javascript" type="text/javascript" src='<%=ResolveUrl("~") %>Scripts/calendar.js'></script>--%>
+    <script src="<%=ResolveUrl("~") %>Scripts/Core/jquery.ui.datepicker-zh-CN.js" type="text/javascript"></script>
+    <script src="<%=ResolveUrl("~") %>Scripts/Pages/common.js" type="text/javascript"></script>
+    <script src="<%=ResolveUrl("~") %>Scripts/Core/DatePicker/WdatePicker.js" type="text/javascript"></script>
+    <form runat="server">
+    <div class="wrap">
+        <div class="head">
+            <div class="logo">
+                &nbsp;</div>
+            <asp:ContentPlaceHolder ID="NavigatorContent" runat="server">
+            </asp:ContentPlaceHolder>
+            <br class="clear" />
+            <div class="navigator">
+                <div class="nav nav-c1">
+                    <div class="nav nav-c2">
+                        <div class="nav nav-c3">
+                            欢迎，<b><%= this.Profile.Account.DisplayName %></b>！ 
+                            [<a href="<%=ResolveUrl("~") %>views/account/myprofile.aspx" style="color:#F5F5F5">个人信息</a>]
+                            |[
+                            <asp:LoginStatus ID="LoginStatus1" runat="server" LogoutText="注销" ForeColor="#E9967A" />
+                            ]
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <ul class="styleSelector">
+                <li><span class="red">&nbsp;</span></li>
+                <li><span class="green">&nbsp;</span></li>
+                <li><span class="blue">&nbsp;</span></li>
+                <li><span class="brown">&nbsp;</span></li>
+                <li><span class="yellow">&nbsp;</span></li>
+            </ul>
+            <br class="clear" />
+        </div>
+        <div class="body">
+            <div class="left">
+                <div class="title">
+                    &nbsp;</div>
+                <div class="content">
+                    <asp:ContentPlaceHolder ID="MenuContent" runat="server"></asp:ContentPlaceHolder>
+                </div>
+                <div class="bot">
+                    &nbsp;</div>
+            </div>
+            <div class="right">
+                <div class="title">
+                    <div>
+                        <span>                            
+                            <asp:ContentPlaceHolder ID="MapPathContent" runat="server"></asp:ContentPlaceHolder>
+                        </span>
+                    </div>
+                </div>
+                <div class="content">
+                    <div class="ctnx" style="width:auto;height:auto">
+                        <table style="width:95%;height:500px">
+                        <tr>
+                            <td valign="top" style="width:100%" align="left">
+                        <asp:ContentPlaceHolder ID="BodyContent" runat="server"></asp:ContentPlaceHolder>
+                        </td>
+                        </tr></table>
+                    </div>
+                    <%--<div id="leftMenuIndicator">分系统监控</div>--%>
+                </div>
+                <div class="bot">
+                    <span>&nbsp;</span></div>
+            </div>
+        </div>
+    </div>
+    </form>
+</body>
+</html>

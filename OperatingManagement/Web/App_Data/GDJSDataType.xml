@@ -1,0 +1,102 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<results>
+  <result name="交会预报STW结果" value="CutPre_STW">
+    <data name="Rho" />
+    <data name="A" />
+    <data name="E" />
+    <data name="dRho" />
+    <data name="dA" />
+    <data name="dE" />
+    <data name="Theta1" />
+    <data name="Theta2" />
+  </result>
+  <result name="交会预报UNW结果" value="CutPre_UNW">
+    <data name="Rho" />
+    <data name="A" />
+    <data name="E" />
+    <data name="dRho" />
+    <data name="dA" />
+    <data name="dE" />
+    <data name="Theta1" />
+    <data name="Theta2" />
+  </result>
+  <result name="交会分析STW结果" value="CutAna_STW">
+    <data name="S" />
+    <data name="T" />
+    <data name="W" />
+    <data name="Rho" />
+    <data name="A" />
+    <data name="E" />
+    <data name="dRho" />
+    <data name="dA" />
+    <data name="dE" />
+    <data name="Theta1" />
+    <data name="Theta2" />
+  </result>
+  <result name="交会分析UNW结果" value="CutAna_UNW">
+    <data name="U" />
+    <data name="N" />
+    <data name="W" />
+    <data name="Rho" />
+    <data name="A" />
+    <data name="E" />
+    <data name="dRho" />
+    <data name="dA" />
+    <data name="dE" />
+    <data name="Theta1" />
+    <data name="Theta2" />
+  </result>
+  <result name="轨道预报J2000系空间位置预报" value="GDYB_MapJ">
+    <data name="X" />
+    <data name="Y" />
+    <data name="Z" />
+    <data name="vX" />
+    <data name="vY" />
+    <data name="vZ" />
+  </result>
+  <result name="轨道预报WGS-84坐标系空间位置预报" value="GDYB_MapW">
+    <data name="X" />
+    <data name="Y" />
+    <data name="Z" />
+    <data name="vX" />
+    <data name="vY" />
+    <data name="vZ" />
+  </result>
+  <result name="轨道预报星下点预报" value="GDYB_SubSatPoint">
+    <data name="L" />
+    <data name="B" />
+    <data name="H" />
+  </result>
+  <result name="轨道预报测站观测量" value="GDYB_StaObsPre">
+    <data name="R" />
+    <data name="RR" />
+    <data name="A" />
+    <data name="AA" />
+    <data name="E" />
+    <data name="EE" />
+    <data name="Th" />
+    <data name="TTh" />
+    <data name="K" />
+    <data name="M" />
+  </result>
+  <result name="轨道预报观测引导文件" value="GDYB_ObsGuiding">
+    <data name="A" />
+    <data name="AA" />
+    <data name="E" />
+    <data name="EE" />
+  </result>
+  <result name="轨道预报太阳角度文件" value="GDYB_SunAH">
+    <data name="A" />
+    <data name="E" />
+  </result>
+  <result name="轨道预报测站可见性统计文件" value="GDYB_VisibleStatistics">
+  </result>
+  <result name="轨道预报进出站及航捷数据统计" value="GDYB_StationInOut">
+  </result>
+  <result name="轨道预报日凌历元文件" value="GDYB_SunTransit">
+  </result>
+  <result name="轨道预报月凌历元文件" value="GDYB_MoonTransit">
+  </result>
+  <result name="轨道预报地影历元文件" value="GDYB_EarthShadow">
+  </result>
+</results>

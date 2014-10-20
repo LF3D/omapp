@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<PlanParameters>
+    <MBXQDefaultUser description="空间目标信息需求默认用户名称">运控评估中心</MBXQDefaultUser>
+    <MBXQDefaultTargetInfo description="空间目标信息需求默认信息标志">TargetInfo</MBXQDefaultTargetInfo>
+    <MBXQInfoName description="空间目标信息需求产品名称">
+        <item text="国内双行根数" value="CODE" hex="1002H"></item>
+        <item text="J2000星历数据" value="J2000" hex="1003H"></item>
+        <item text="WGS84星历数据" value="WGS84" hex="1004H"></item>
+    </MBXQInfoName>
+    <HJXQDefaultUser description="空间环境信息需求默认用户名称">运控评估中心</HJXQDefaultUser>
+    <HJXQDefaultEnvironInfo description="空间环境信息需求默认信息标志">EnvironInfo</HJXQDefaultEnvironInfo>
+    <HJXQInfoName description="空间环境信息需求产品名称">
+        <item text="LEO轨道器件单粒子翻转率" value="LEORevRate" hex="2011H"></item>
+        <item text="磁层顶穿越事件警报" value="MfPassALARM" hex="2018H"></item>
+        <item text="太阳X射线耀斑警报信息" value="XRayALERM" hex="2021H"></item>
+        <item text="太阳质子事件警报" value="SPALERM" hex="2022H"></item>
+        <item text="地磁暴事件警报" value="GEOALERM" hex="2023H"></item>
+        <item text="辐射效应对卫星平台影响" value="EffeRad" hex="2026H"></item>
+        <item text="表面充电效应对卫星平台影响" value="EffeSurCha" hex="2027H"></item>
+        <item text="深层充电效应对卫星平台影响" value="EffeDeepCha" hex="2028H"></item>
+        <item text="空间环境对空间目标影响的整体态势评估" value="EffeSitu" hex="2029H"></item>
+        <item text="太阳F10.7现报信息" value="F107" hex="2031H"></item>
+        <item text="太阳F10.7预报信息" value="F107Pred" hex="2032H"></item>
+        <item text="地磁AP现报信息" value="AP" hex="2033H"></item>
+        <item text="地磁AP指数预报信息" value="APPred" hex="2034H"></item>
+        <item text="地磁KP现报信息" value="KP" hex="2035H"></item>
+        <item text="地磁KP指数预报信息" value="KPPred" hex="2036H"></item>
+        <item text="LEO轨道卫星轨道衰变信息" value="LEOOrbAtt" hex="2037H"></item>
+    </HJXQInfoName>
+    <DJZYSQSXZ description="测控资源使用申请性质">
+        <item text="正常申请" value="ZC"></item>
+        <item text="应急申请" value="YJ"></item>
+    </DJZYSQSXZ>
+    <DJZYSQMLB description="测控资源使用申请任务类别：太阳同步卫星">TT</DJZYSQMLB>
+    <DJZYSQFS description="测控资源使用申请工作方式">
+        <item text="实战" value="SZ"></item>
+        <item text="联调" value="LT"></item>
+        <item text="全区合练" value="HL"></item>
+    </DJZYSQFS>
+    <DJZYSQGZDY description="测控资源使用申请工作单元">
+        <item text="东风站" value="20-DF"></item>
+        <item text="大树里站" value="20-DSL"></item>
+        <item text="青岛站" value="26-QD"></item>
+        <item text="喀什站" value="26-KS"></item>
+        <item text="厦门站" value="26-XM"></item>
+        <item text="三亚站" value="26-SY"></item>
+        <item text="佳木斯站" value="26-JMS"></item>
+        <item text="瑞典站" value="26-RD"></item>
+        <item text="远望五号测量船" value="23-YW5"></item>
+        <item text="远望六号测量船" value="23-YW6"></item>
+    </DJZYSQGZDY>
+    <DJZYSQSBDH description="测控资源使用申请设备代号">
+        <item text="东风站" value="TS-4216"></item>
+        <item text="大树里站" value="YQ-2512"></item>
+        <item text="青岛站" value="TY-4801"></item>
+        <item text="喀什站(TS-4217)" value="TS-4217"></item>
+        <item text="喀什站(TY-4801)" value="TY-4801"></item>
+        <item text="厦门站" value="TS-4222"></item>
+        <item text="三亚站" value="TS-4205"></item>
+        <item text="佳木斯站" value="TS-4205"></item>
+        <item text="瑞典站" value="瑞典站设备"></item>
+        <item text="远望五号测量船" value="TS-4203"></item>
+        <item text="远望六号测量船" value="TS-4210"></item>
+    </DJZYSQSBDH>
+    <DJZYSQQB description="测控资源使用申请圈标">YB</DJZYSQQB>
+    <DJZYSQSHJ description="测控资源使用申请测控事件类型">
+        <item text="数据注入" value="1"></item>
+        <item text="遥控" value="2"></item>
+        <item text="测轨" value="3"></item>
+        <item text="状态监视(遥测)" value="4"></item>
+        <item text="数传" value="5"></item>
+    </DJZYSQSHJ>
+    <DJZYSQPDXZ description="测控资源使用申请测控频段选择">
+        <item text="S频段" value="SS"></item>
+        <item text="C频段" value="CC"></item>
+        <item text="Ka频段" value="KA"></item>
+        <item text="X频段" value="XX"></item>
+    </DJZYSQPDXZ>
+    <ZZGZJHMS description="地面计划设备工作模式">
+        <item text="标准TTC模式" value="01"></item>
+        <item text="扩频模式1" value="02"></item>
+        <item text="扩频模式2" value="03"></item>
+        <item text="S频段数传接收模式" value="04"></item>
+        <item text="X频段数传接收模式" value="05"></item>
+    </ZZGZJHMS>
+    <GZJHXXFL description="地面站工作计划信息分类">
+        <item text="周计划" value="ZJ"></item>
+        <item text="日计划" value="RJ"></item>
+    </GZJHXXFL>
+    <!--<GZJHDH description="地面站工作计划任务代号">
+        <item text="700任务" value="0501"></item>
+        <item text="TS-3卫星" value="5701"></item>
+        <item text="TS-4-A卫星" value="5702"></item>
+        <item text="TS-4-B卫星" value="5703"></item>
+        <item text="TS-5-A卫星" value="5704"></item>
+        <item text="TS-5-B卫星" value="5705"></item>
+    </GZJHDH>-->
+    <GZJHMS description="地面站工作计划设备工作模式">
+        <item text="标准TTC模式" value="01"></item>
+        <item text="扩频模式1" value="02"></item>
+        <item text="扩频模式2" value="03"></item>
+        <item text="S频段数传接收模式" value="04"></item>
+        <item text="X频段数传接收模式" value="05"></item>
+    </GZJHMS>
+    <GZJHQB description="地面站工作计划设备圈标识">
+        <item text="第一圈" value="Q1"></item>
+        <item text="第二圈" value="Q2"></item>
+        <item text="入境圈" value="RJ"></item>
+        <item text="出境圈" value="CJ"></item>
+        <item text="X一般圈" value="YB"></item>
+    </GZJHQB>
+    <GZJHGXZ  description="地面站工作计划设备工作性质">
+        <item text="主站" value="M"></item>
+        <item text="备站" value="B"></item>
+    </GZJHGXZ>
+    <GZJHBID description="地面站工作计划信息类别标志">
+        <item text="数传数据" value="01"></item>
+        <item text="遥测数据" value="02"></item>
+        <item text="测距数据" value="03"></item>
+        <item text="测速数据" value="04"></item>
+        <item text="测角数据" value="05"></item>
+    </GZJHBID>
+    <TYSJSatName description="仿真推演试验数据卫星名称">
+        <item text="探索三号卫星" value="探索五号卫星"></item>
+        <item text="探索四号卫星" value="探索五号卫星"></item>
+        <item text="探索五号卫星" value="探索五号卫星"></item>
+    </TYSJSatName>
+    <YDSJNOSTTargetList description="引导数据非空间机动任务发送目标列表">
+        <item text="863-YZ4701机动站(JYZ1)" value="JYZ1"></item>
+        <item text="863-YZ4702机动站(JYZ2)" value="JYZ2"></item>
+        <!--<item text="西安卫星测控中心(XSCC)" value="XSCC"></item>-->
+    </YDSJNOSTTargetList>
+  <YDSJSTTargetList description="引导数据空间机动任务发送目标列表">
+    <item text="863-YZ4701机动站(JYZ1)" value="JYZ1"></item>
+    <item text="863-YZ4702机动站(JYZ2)" value="JYZ2"></item>
+  </YDSJSTTargetList>
+  <XSCCCode description="西安测控中心编码">XSCC</XSCCCode>
+  <YKXZ0471Code description="遥科学站-0471编码">JYZ1</YKXZ0471Code>
+  <YKXZ0472Code description="遥科学站-0472编码">JYZ2</YKXZ0472Code>
+  <YDSJDataCode description="引导数据编码">YDSJ</YDSJDataCode>
+  <GDGSDataCode description="轨道根数数据编码">GDGS</GDGSDataCode>
+  <DJZYSQDataCode description="测控资源使用申请数据编码">DJZYSQ</DJZYSQDataCode>
+  <TYSJDataCode description="仿真推演数据编码">TYSJ</TYSJDataCode>
+  <MBXQDataCode description="目标需求数据编码">MBXQ</MBXQDataCode>
+  <HJXQDataCode description="环境需求数据编码">HJXQ</HJXQDataCode>
+  <XXXQDataCode description="信息需求数据编码">XXXQ</XXXQDataCode>
+  <YJJHDataCode description="应用研究计划数据编码">YJJH</YJJHDataCode>
+  <SYJHDataCode description="试验计划数据编码">SYJH</SYJHDataCode>
+  <GZJHDataCode description="地面站工作计划数据编码">GZJH</GZJHDataCode>
+  <YJJHSendTargetMapping description="应用研究计划发送目标与卫星映射关系">
+    <item text="073" value="GCYJ"></item>
+    <item text="074" value="CZYJ"></item>
+    <item text="075" value="JDYJ"></item>
+    <item text="AAA" value="FZTY"></item>
+  </YJJHSendTargetMapping>
+  <SYXMDef description="试验项目编码定义">
+    <item text="GEO目标观测试验" value="GEO"></item>
+    <item text="LEO目标成像试验" value="LEO"></item>
+    <item text="释放抓捕目标试验" value="SFZ"></item>
+    <item text="逼近停靠试验" value="BJT"></item>
+    <item text="遥操作试验" value="YCZ"></item>
+    <item text="远程自主快速轨道机动试验" value="GJD"></item>
+    <item text="ORTS在轨施放试验" value="ZGF"></item>
+  </SYXMDef>
+</PlanParameters>

@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menus>
+    <menu title="地面站设备管理">
+      <item id="1-1" title="新增地面站设备" roles="OMB_GRes.Add" href="Views/BusinessManage/GroundResourceAdd.aspx" />
+      <item id="1-2" title="查询/编辑地面站设备" roles="OMB_GRes.View" href="Views/BusinessManage/DMZResourceMan.aspx" />
+      <item id="1-3" title="地面站设备状态管理" roles="OMB_ResStaMan.View" href="Views/BusinessManage/ResourceStatusManage.aspx?ResourceType=1" />
+    </menu>
+  <menu title="运控评估中心设备管理">
+    <item id="1-4" title="新增中心设备" roles="OMB_CRes.Add" href="Views/BusinessManage/CenterResourceAdd.aspx" />
+    <item id="1-5" title="查询/编辑中心设备" roles="OMB_CRes.View" href="Views/BusinessManage/CResourceMan.aspx" />
+    <item id="1-6" title="中心设备状态管理" roles="OMB_ResStaMan.View" href="Views/BusinessManage/ResourceStatusManage.aspx?ResourceType=3" />
+  </menu>
+  <menu title="通信链路管理">
+    <item id="1-7" title="新增通信链路" roles="OMB_ComRes.Add" href="Views/BusinessManage/CommunicationResourceAdd.aspx" />
+    <item id="1-8" title="查询/编辑通信链路" roles="OMB_ComRes.View" href="Views/BusinessManage/ComResourceMan.aspx" />
+    <item id="1-9" title="通信链路状态管理" roles="OMB_ResStaMan.View" href="Views/BusinessManage/ResourceStatusManage.aspx?ResourceType=2" />
+  </menu>
+    <menu title="资源计算">
+      <item id="2-1" title="新增资源状态" roles="OMB_ResStaMan.View" href="Views/BusinessManage/ResourceStatusAdd.aspx" />
+      <item id="2-2" title="资源调度计算" roles="OMB_ResCac.Caculate" href="Views/BusinessManage/ResourceRequirementAdd.aspx" />
+      <item id="2-3" title="查看资源调度结果" roles="OMB_ResCac.View" href="Views/BusinessManage/ResourceCalculateManage.aspx" />
+    </menu>
+</menus>

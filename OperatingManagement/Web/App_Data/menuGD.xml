@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menus>
+    <menu title="轨道分析">
+      <item id="5-1" title="轨道参数转换" roles="OMB_CSZH.Caculate" href="Views/BusinessManage/GDCSZH.aspx" />
+      <item id="5-2" title="轨道差值分析" roles="OMB_CZFX.Caculate" href="Views/BusinessManage/GDCZFX.aspx" />
+      <item id="5-3" title="轨道交会预报" roles="OMB_JHYB.Caculate" href="Views/BusinessManage/GDJHYB.aspx" />
+      <item id="5-4" title="轨道交会分析" roles="OMB_JHFX.Caculate" href="Views/BusinessManage/GDJHFX.aspx" />
+      <item id="5-5" title="轨道预报" roles="OMB_GDYB.Caculate" href="Views/BusinessManage/GDYB.aspx" />
+    </menu>
+</menus>

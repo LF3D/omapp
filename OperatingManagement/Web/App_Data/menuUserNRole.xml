@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menus>
+  <menu title="用户管理">
+    <item id="1-1" title="新增用户" roles="OMUserManage.Add" href="views/userandrole/useradd.aspx" />
+    <item id="1-2" title="查看用户" roles="OMUserManage.View" href="views/userandrole/users.aspx" />
+  </menu>
+  <menu title="角色管理">
+    <item id="2-1" title="新增角色" roles="OMRoleManage.Add" href="views/userandrole/roleadd.aspx" />
+    <item id="2-2" title="查看角色" roles="OMRoleManage.View" href="views/userandrole/roles.aspx" />
+  </menu>
+  <menu title="权限管理">
+    <item id="3-1" title="新增权限" roles="OMPermissionManage.Add" href="views/userandrole/permissionadd.aspx" />
+    <item id="3-2" title="查看权限" roles="OMPermissionManage.View" href="views/userandrole/permissions.aspx" />
+  </menu>
+</menus>

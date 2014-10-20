@@ -1,0 +1,23 @@
+2011-12-1 Framework工程新增FTPProcessor文件	by Cindy
+2011-12-1 solutionitems新增变更说明文件	by Cindy
+2011-12-6 SSOTest\Default.aspx.cs中关于Decrypt的使用 by Cindy
+2011-12-6 计划管理部分，已有功能已提交，细节部分调整及待需求完善  by Tangjia
+2011-12-6 RemotingClient\RemotingActivators.cs增加GetObject<T>(string ip, string port) by Cindy
+2011-12-6 RemotingHelper\EncryptHelper.cs，去掉了using System.Web，去掉了Decrypt方法中关于HttpUtility.UrlEncode by Cindy
+2011-12-6 RemotingHelper\PasswordEncryptHelper.cs，增加GenerateSalt(string salt)、EncryptPasswordBySalt by Cindy
+2011-12-11 PlanDetail.aspx.cs编译无法通过，我将using ServicesKernel.File注释掉了，并注释了行号为53-65的代码，请知悉
+2011-12-25 基本完成资源管理和状态管理，差资源状态图形显示，请提供一下图形使用简单例子。
+2011-12-28 将TB_XXTYPE和TB_XYXSInfo表引入,更新TB_CENTEROUTPUTPOLICY表字段infosource VARCHAR2(20) not null,infotype VARCHAR2(20) not null,ddestination VARCHAR2(20) not null定义
+2012-01-12 在Scripts中增加系统初始化数据文件夹，增加两个脚本TB_XXTYPE.sql、TB_XYXSInfo.sql，表示信源、信宿、信息类型，使用PLSQL Import 导入，由于这两个脚本内容保密，含数据部分被删除，放在公共邮箱中
+2012-01-17 完善中心输出策略、资源管理、健康状态管理、占用状态管理DataAccessLayer及Web项目中对应代码注释 by liutao
+2012-02-06 整理了菜单及Module、Action、Permission by frh
+2012-02-07 DataAccessLayer增加了SendInfo.cs、ReceiveInfo.cs by frh
+2012-02-07 Framwork中的Enum增加了FileServerEnum.cs
+2012-02-07 Web工程里增加了\Views\BusinessManage\GetFileSInfo.aspx，\Web\Scripts\Pages\GetFileSInfo.aspx.js
+2012-02-08 Web工程里增加了scripts/core/jquery.ui.datepicker.js，scripts/core/jquery.ui.datepicker-zh-CN.js，jquery.ui.widget.js，jquery.ui.core.js
+2012-02-08 修改了WebKernel的AspNetMasterPage.cs，增加scripts/core/jquery.ui.datepicker.js，scripts/core/jquery.ui.datepicker-zh-CN.js，jquery.ui.widget.js，jquery.ui.core.js的使用
+2012-02-08 修改了一些问题。App_Data下增加了PlanParameters.xml 计划管理用到的配置项 by Tangjia
+2012-02-09 更新UP_UseStatus_Search、UP_HealthStatus_Search存储过程，添加了单个资源状态图形显示页面 by liutao
+2012-03-19 更新up_jh_update存储过程,更新v_gd,v_ydsj视图  by TangJia
+2012-03-25 更新表tb_ydsj（删除Data_ID字段）; 删除v_gd,v_ydsj视图；删除表tb_basicinfodata  --- by TangJia
+2012-03-25 更新up_gd_selectbyid ，up_ydsj_selectbyid存储过程  --- by TangJia

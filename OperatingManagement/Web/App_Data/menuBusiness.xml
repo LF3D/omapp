@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menus>
+  <menu title="任务管理">
+    <item id="1-2" title="新增任务" roles="OMB_TaskMan.Add" href="Views/BusinessManage/BDManage/TaskAdd.aspx" />
+    <item id="1-1" title="查看/编辑任务" roles="OMB_TaskMan.View" href="Views/BusinessManage/BDManage/TaskManage.aspx" />
+  </menu>
+  <menu title="地面站管理">
+    <item id="2-2" title="新增地面站" roles="OMB_GSMan.Add" href="Views/BusinessManage/BDManage/DMZAdd.aspx" />
+    <item id="2-1" title="查看/编辑地面站" roles="OMB_GSMan.View" href="Views/BusinessManage/BDManage/DMZManage.aspx" />
+  </menu>
+  <menu title="地面站/卫星属性管理">
+    <item id="4-2" title="新增地面站/卫星属性" roles="OMB_ZYSXMan.Add" href="Views/BusinessManage/BDManage/ZYSXAdd.aspx" />
+    <item id="4-1" title="查看/编辑地面站/卫星属性" roles="OMB_ZYSXMan.View" href="Views/BusinessManage/BDManage/ZYSXManage.aspx" />
+  </menu>
+  <menu title="地面站/卫星功能管理">
+    <item id="5-2" title="新增地面站/卫星功能" roles="OMB_ZYGNMan.Add" href="Views/BusinessManage/BDManage/ZYGNAdd.aspx" />
+    <item id="5-1" title="查看/编辑地面站/卫星功能" roles="OMB_ZYGNMan.View" href="Views/BusinessManage/BDManage/ZYGNManage.aspx" />
+  </menu>
+  <menu title="卫星管理">
+    <item id="3-2" title="新增卫星" roles="OMB_SatkMan.Add" href="Views/BusinessManage/BDManage/SatAdd.aspx" />
+    <item id="3-1" title="查看/编辑卫星" roles="OMB_SatkMan.View" href="Views/BusinessManage/BDManage/SatManage.aspx" />
+  </menu>
+</menus>

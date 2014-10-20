@@ -1,0 +1,57 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<orbits>
+  <orbit id="12">
+    <![CDATA[瞬时Kepler根数——>Kepler平根数]]>
+  </orbit>
+  <orbit id="13">
+    <![CDATA[瞬时Kepler根数——>第一类无奇点根数]]>
+  </orbit>
+  <orbit id="16">
+    <![CDATA[瞬时Kepler根数——>J2000坐标系]]>
+  </orbit>
+  <orbit id="21">
+    <![CDATA[Kepler平根数——>瞬时Kepler根数]]>
+  </orbit>
+  <orbit id="31">
+    <![CDATA[第一类无奇点根数——>瞬时Kepler平根数]]>
+  </orbit>
+  <orbit id="61">
+    <![CDATA[J2000坐标系——>瞬时Kepler根数]]>
+  </orbit>
+  <orbit id="67">
+    <![CDATA[J2000坐标系——>WGS-84坐标系]]>
+  </orbit>
+  <orbit id="68">
+    <![CDATA[J2000坐标系——>发射坐标系]]>
+  </orbit>
+  <orbit id="69">
+    <![CDATA[J2000坐标系——>发射惯性坐标系]]>
+  </orbit>
+  <orbit id="86">
+    <![CDATA[发射坐标系——>WGS-84坐标系]]>
+  </orbit>
+  <orbit id="87">
+    <![CDATA[发射坐标系——>WGS-84坐标系]]>
+  </orbit>
+  <orbit id="89">
+    <![CDATA[发射坐标系——>发射惯性坐标系]]>
+  </orbit>
+  <orbit id="76">
+    <![CDATA[WGS-84坐标系——>J2000坐标系]]>
+  </orbit>
+  <orbit id="78">
+    <![CDATA[WGS-84坐标系——>发射坐标系]]>
+  </orbit>
+  <orbit id="79">
+    <![CDATA[WGS-84坐标系——>发射惯性坐标系]]>
+  </orbit>
+  <orbit id="96">
+    <![CDATA[发射惯性坐标系——>J2000坐标系]]>
+  </orbit>
+  <orbit id="97">
+    <![CDATA[发射惯性坐标系——>WGS-84坐标系]]>
+  </orbit>
+  <orbit id="98">
+    <![CDATA[发射惯性坐标系——>发射坐标系]]>
+  </orbit>
+</orbits>

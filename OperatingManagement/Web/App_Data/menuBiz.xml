@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menus>
+    <menu title="任务管理">
+      <item id="1-1" title="查看任务" roles="#" />
+      <item id="1-2" title="新增任务" roles="OMB_FRcvInfo.View" href="Views/BusinessManage/GetFileRcvInfos.aspx" />
+      <item id="1-3" title="修改任务" roles="OMB_FSendFile.Do" href="Views/BusinessManage/SendFile.aspx" />
+    </menu>
+    <menu title="地面站管理">
+      <item id="1-1" title="查看地面站" roles="OMB_FSendInfo.View" href="Views/BusinessManage/GetFileSInfos.aspx" />
+      <item id="1-2" title="新增地面站" roles="OMB_FRcvInfo.View" href="Views/BusinessManage/GetFileRcvInfos.aspx" />
+      <item id="1-3" title="修改地面站" roles="OMB_FSendFile.Do" href="Views/BusinessManage/SendFile.aspx" />
+    </menu>
+    <menu title="卫星管理">
+      <item id="1-1" title="查看卫星" roles="OMB_FSendInfo.View" href="Views/BusinessManage/GetFileSInfos.aspx" />
+      <item id="1-2" title="新增卫星" roles="OMB_FRcvInfo.View" href="Views/BusinessManage/GetFileRcvInfos.aspx" />
+      <item id="1-3" title="修改卫星" roles="OMB_FSendFile.Do" href="Views/BusinessManage/SendFile.aspx" />
+    </menu>
+    <menu title="属性管理">
+      <item id="1-1" title="查看属性信息" roles="OMB_FSendInfo.View" href="Views/BusinessManage/GetFileSInfos.aspx" />
+      <item id="1-2" title="新增属性信息" roles="OMB_FRcvInfo.View" href="Views/BusinessManage/GetFileRcvInfos.aspx" />
+      <item id="1-3" title="修改属性信息" roles="OMB_FSendFile.Do" href="Views/BusinessManage/SendFile.aspx" />
+    </menu>
+    <menu title="功能管理">
+      <item id="1-1" title="查看功能信息" roles="OMB_FSendInfo.View" href="Views/BusinessManage/GetFileSInfos.aspx" />
+      <item id="1-2" title="新增功能信息" roles="OMB_FRcvInfo.View" href="Views/BusinessManage/GetFileRcvInfos.aspx" />
+      <item id="1-3" title="修改功能信息" roles="OMB_FSendFile.Do" href="Views/BusinessManage/SendFile.aspx" />
+    </menu>
+</menus>

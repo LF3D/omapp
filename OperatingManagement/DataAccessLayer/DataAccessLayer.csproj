@@ -1,0 +1,136 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F108CA3D-8C70-47C0-8DDB-2A62CBBAC211}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>OperatingManagement.DataAccessLayer</RootNamespace>
+    <AssemblyName>OM.DataAccessLayer</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Oracle.DataAccess, Version=10.2.0.100, Culture=neutral, PublicKeyToken=89b483f429c47342">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\Libs\Oracle.DataAccess.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessManage\CenterOutputPolicy.cs" />
+    <Compile Include="BusinessManage\CenterResource.cs" />
+    <Compile Include="BusinessManage\CommunicationResource.cs" />
+    <Compile Include="BusinessManage\CutSubItemInfo.cs" />
+    <Compile Include="BusinessManage\DFInfo.cs" />
+    <Compile Include="BusinessManage\DFRecvInfo.cs" />
+    <Compile Include="BusinessManage\DFSendInfo.cs" />
+    <Compile Include="BusinessManage\DMZ.cs" />
+    <Compile Include="BusinessManage\GroundResource.cs" />
+    <Compile Include="BusinessManage\HealthStatus.cs" />
+    <Compile Include="BusinessManage\FileReceiveInfo.cs" />
+    <Compile Include="BusinessManage\ResourceCalculate.cs" />
+    <Compile Include="BusinessManage\ResourceCalculateResult.cs" />
+    <Compile Include="BusinessManage\ResourceRequirement.cs" />
+    <Compile Include="BusinessManage\Satellite.cs" />
+    <Compile Include="BusinessManage\FileSendInfo.cs" />
+    <Compile Include="BusinessManage\SystemParameters.cs" />
+    <Compile Include="BusinessManage\Task.cs" />
+    <Compile Include="BusinessManage\UserFrame.cs" />
+    <Compile Include="BusinessManage\UseStatus.cs" />
+    <Compile Include="BusinessManage\XDSC.cs" />
+    <Compile Include="BusinessManage\T0.cs" />
+    <Compile Include="BusinessManage\R.cs" />
+    <Compile Include="BusinessManage\SBJH.cs" />
+    <Compile Include="BusinessManage\MBXX.cs" />
+    <Compile Include="BusinessManage\HJXX.cs" />
+    <Compile Include="BusinessManage\InfoType.cs" />
+    <Compile Include="BusinessManage\XYXSInfo.cs" />
+    <Compile Include="BusinessManage\YCPG.cs" />
+    <Compile Include="BusinessManage\YCZZTSJ.cs" />
+    <Compile Include="BusinessManage\YJBG.cs" />
+    <Compile Include="BusinessManage\JHBG.cs" />
+    <Compile Include="BusinessManage\SYXQ.cs" />
+    <Compile Include="BusinessManage\GCJG.cs" />
+    <Compile Include="BusinessManage\CZJG.cs" />
+    <Compile Include="BusinessManage\JDJG.cs" />
+    <Compile Include="BusinessManage\TYJG.cs" />
+    <Compile Include="BusinessManage\GD.cs" />
+    <Compile Include="BusinessManage\ZYGN.cs" />
+    <Compile Include="BusinessManage\ZYSX.cs" />
+    <Compile Include="PlanManage\JDSJ.cs" />
+    <Compile Include="PlanManage\Sequence.cs" />
+    <Compile Include="PlanManage\YJJH.cs" />
+    <Compile Include="PlanManage\JH.cs" />
+    <Compile Include="PlanManage\YDSJ.cs" />
+    <Compile Include="PlanManage\SYCX.cs" />
+    <Compile Include="PlanManage\SYJH.cs" />
+    <Compile Include="PlanManage\XXXQ.cs" />
+    <Compile Include="PlanManage\GZJH.cs" />
+    <Compile Include="PlanManage\TYSJ.cs" />
+    <Compile Include="PlanManage\MBXQ.cs" />
+    <Compile Include="PlanManage\HJXQ.cs" />
+    <Compile Include="PlanManage\ZXJH.cs" />
+    <Compile Include="PlanManage\DJZYSQ.cs" />
+    <Compile Include="PlanManage\DJZYJH.cs" />
+    <Compile Include="PlanManage\StationInOut.cs" />
+    <Compile Include="PlanManage\ZZGZJH.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="BusinessManage\SysStatus.cs" />
+    <Compile Include="System\Permission.cs" />
+    <Compile Include="System\Module.cs" />
+    <Compile Include="System\Task.cs" />
+    <Compile Include="System\Role.cs" />
+    <Compile Include="System\User.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessManage\RR.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BusinessManage\AE.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\Framework\Framework.csproj">
+      <Project>{C301ECEB-1C07-4A0C-8F66-6BE801CECA02}</Project>
+      <Name>Framework</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

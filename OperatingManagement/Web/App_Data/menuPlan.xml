@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<menus>
+  <menu title="计划生成">
+    <item id="1-1" title="生成初步计划" roles="OMPLAN_ExProgram.View" href="Views/PlanManage/ExperimentProgramList.aspx" />
+    <item id="1-2" title="编辑初步计划" roles="OMPLAN_Plan.View" href="Views/PlanManage/PlanTempList.aspx" />
+  </menu>
+  <menu title="新建计划">
+    <item id="1-3" title="新建应用研究计划" roles="OMPLAN_Plan.Add" href="Views/PlanManage/YJJHEdit.aspx" />
+    <item id="1-4" title="新建测控资源使用申请" roles="OMPLAN_Plan.Add" href="Views/PlanManage/DJZYSQEdit.aspx" />
+    <item id="1-5" title="新建地面站工作计划" roles="OMPLAN_Plan.Add" href="Views/PlanManage/GZJHEdit.aspx" />
+    <item id="1-6" title="新建中心运行计划" roles="OMPLAN_Plan.Add" href="Views/PlanManage/ZXJHEdit.aspx" />
+  </menu>
+  <menu title="查看/编辑/发送计划">
+    <item id="1-7" title="查看试验计划" roles="OMPLAN_ExPlan.View" href="Views/PlanManage/ExperimentPlanList.aspx" />
+    <item id="1-8" title="查看/编辑/发送计划" roles="OMPLAN_Plan.View" href="Views/PlanManage/PlanList.aspx" />
+  </menu>
+  <!--
+  <menu title="查询计划">
+    <item id="1-5" title="新建空间信息需求" roles="OMPLAN_Plan.Add" href="Views/PlanManage/XXXQEdit.aspx" />
+    <item id="1-9" title="新建仿真推演数据" roles="OMPLAN_Plan.Add" href="Views/PlanManage/TYSJEdit.aspx" />
+  </menu>
+  <menu title="轨道数据/引导数据"> 
+        <item id="1-10" title="轨道根数管理" roles="OMPLAN_OQ.View" href="Views/PlanManage/OribitalQuantityList.aspx" />
+        <item id="1-11" title="引导数据-空间机动任务" roles="OMPLAN_SpaceTask.View" href="Views/PlanManage/SpaceTaskList.aspx" />
+        <item id="1-12" title="引导数据-非空间机动任务" roles="OMPLAN_NSpaceTask.View" href="Views/PlanManage/NotSpaceTaskList.aspx" />
+      <item id="1-4" title="试验数据分发" roles="OMB_SYSJFF.View" href="Views/BusinessManage/SYSJFF.aspx" />
+  </menu>-->
+</menus>

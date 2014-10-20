@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteSetting>
+  <siteName>Operating Management</siteName>
+  <pageSize>10</pageSize>
+  <dateFormat>yyyy/MM/dd</dateFormat>
+  <timeFormat>HH:mm:ss</timeFormat>
+  <dateTimeFormat>yyyy/MM/dd HH:mm:ss</dateTimeFormat>
+  <copyRight><![CDATA[&copy; 2011 TaiJi. All rights reserved.]]></copyRight>
+</siteSetting>
